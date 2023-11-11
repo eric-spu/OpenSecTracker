@@ -23,4 +23,36 @@ OpenSecTracker is an open-source web application designed to track issues in cho
 3. Create a MySQL database and update the database configuration in `config.php`.
 4. Import the database schema from `database.sql`.
 5. Open the application in a web browser.
+6. 
 
+**Folder structure**
+```bash
+OpenSecTracker/
+|-- assets/
+|   |-- css/
+|   |   |-- styles.css
+|   |-- js/
+|       |-- script.js
+|-- config/
+|   |-- config.php
+|-- database/
+|   |-- database.sql
+|-- includes/
+|   |-- functions.php
+|-- templates/
+|   |-- header.php
+|   |-- footer.php
+|   |-- home.php
+|   |-- login.php
+|   |-- register.php
+|   |-- dashboard.php
+|   |-- report_issue.php
+|-- .gitignore
+|-- CONTRIBUTING.md
+|-- LICENSE
+|-- README.md
+|-- index.php
+|-- login.php
+|-- register.php
+
+```
